@@ -1,0 +1,733 @@
+*
+{
+    padding: 0px;
+    margin: 0px;
+}
+
+.home .container
+{
+    background-color: rgba(120,132,152,0.6);
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0px;
+}
+.home .backgr
+{
+    background-image: url(images/banner-12.jpg);
+    width: 100%;
+    height: 100%;
+    background-attachment: fixed;
+}
+.home
+{
+    height: 800px;
+    background-color: aqua;
+    position: relative
+}
+/*.home img
+{
+    width: 100%;
+    height: 100%;
+    background-attachment: scroll;
+
+}*/
+.home .portfolio
+{
+    position: absolute;
+    top: 0;
+    height: 8%;
+    width: 100%;
+    background-color: #5569dc;
+}
+.home .portfolio p
+{
+    font-family: 'Raleway', sans-serif;
+    color: white;
+    font-size: 30px;
+    margin: 10px;
+    padding-left: 100px;
+}
+.home .side
+{
+    position: absolute;
+    top: 8%;
+    right: 0;
+    width: 30%;
+    height: 92%;
+    background-color: #5569dc;
+    text-align: center;
+}
+.home .container .side img
+{
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    
+}
+.home .container .side a
+{
+    text-decoration: none;
+    color: white;
+}
+.home .container .side h1
+{
+    font-size: 20px;
+    color: white;
+    padding-top: 50px;
+    font-family: 'Nunito', sans-serif;
+    
+}
+.home .container .side p
+{
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: white;
+    padding-top: 50px;
+    font-size: 20px;
+
+}
+.home .container .side .social
+{
+    position: absolute;
+    bottom: 20%;
+    height: 50px;
+    width: 100%;
+    overflow: hidden;
+    text-align: center;
+}
+.home .container .side .social img
+{
+    width: 32px;
+    height: 32px;
+    margin: 20px;
+}
+.home .container .side .btn 
+{
+    margin-top: 200px;
+    height: 60px;
+}
+.home .container .side .btn button
+{
+    background-color: white;
+    color: blue;
+    font-family: 'Open Sans Condensed', sans-serif;
+    width: 135px;
+    height: 50px;
+    border: none;
+    font-size: 20px;
+}
+.home .container .side .btn button:hover
+{
+    background-color: gray;
+    color: white;
+    cursor: hand;
+}
+.home .container .head
+{
+    width: 70%;
+    height: 300px;
+    position: absolute;
+    bottom: 100px;
+    overflow: hidden;
+    
+}
+.home .container .head .heading
+{
+    padding: 50px;
+    margin: 50px;
+    text-align: justify;
+}
+
+#nm1
+{
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 25px;
+    padding-bottom: 10px;
+}
+#nm2
+{
+    color: white;
+    font-size: 60px;
+    padding-bottom: 10px;
+    padding-top: 10px;
+    font-family: 'Noticia Text', serif;
+}
+#nm3
+{
+    color: white;
+    font-size: 20px;
+    padding-top: 10px;
+    font-family: 'Merienda', cursive;
+}
+.home .about
+{
+    width: 100%;
+    height: 500px;
+    background-color: #edf0fc;
+    overflow: hidden;
+    position: relative;
+}
+.home .hover
+{
+    background-color: #5569dc;
+    width: 400px;
+    height: 50px;
+    position: relative;
+    top: -25;
+    left: 30%;
+    border-radius: 5px;
+}
+.home .hover p
+{
+    text-align: center;
+    font-family: 'Quicksand', sans-serif;
+    color: white;
+    font-size: 30px;
+    padding: 5px;
+}
+.home .hover span
+{
+    font-size: 20px;
+    color: #c9d4e7;
+}
+.home .about .getin
+{
+    padding: 100px;
+    width: 70%;
+    margin: auto;
+}
+.home .about .getin h2
+{
+    color: #5569dc;
+    padding-bottom: 15px;
+    font-family: 'IBM Plex Serif', serif;
+    font-size: 30px;
+}
+#p1
+{
+    font-family: 'Quicksand', sans-serif;
+    color: #5569dc;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+#p2
+{
+    font-family: 'Quicksand', sans-serif;
+    color: #656a88;
+    line-height: 50px;
+    letter-spacing: 1.5px;
+    font-size: 20px;
+}
+.home .progress
+{
+    height: 600px;
+    position: relative;
+}
+.home .progress .contain
+{
+    width: 90%; 
+    position: absolute;
+    top: 50px;
+    left: 50px;
+    right: 50px;
+    bottom: 50px;
+}
+.home .progress .contain .divv1
+{
+    width: 20%;
+    height: 100%;
+    overflow: hidden;
+}
+.home .progress .contain .divv1 p
+{
+    width: 100%;
+    height: 60px;
+    padding-top: 20px;
+    padding-left: 20px;
+    font-family: 'Quicksand', sans-serif;
+    color: #1c2349; 
+}
+.home .progress .contain .divv2
+{
+    width: 80%; height: 100%;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.home .progress .contain .divv2 .pro1
+{
+    width: 100%;
+    height:60px;
+    padding-bottom: 20px;
+}
+.home .progress .contain .divv2 .pro1 .pro11
+{
+    width: 0%;
+    height: 3px;
+    background-color: #c9d4e7;
+    border-radius: 5px;
+    position: relative;
+    top: 32;
+    transition: all 1s;
+}
+.home .progress .contain .divv2 .pro1:hover .pro11
+{
+    width: 100%;
+}
+.home .progress .contain .divv2 .pro1:hover .pro12
+{
+    width: 25%;
+}
+.home .progress .contain .divv2 .pro1 .pro12 p
+{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    transition: all 1s
+}
+
+.home .progress .contain .divv2 .pro1 .pro12
+{
+    width: 0%;
+    height: 20px;
+    background-color: #5569dc;
+    border-radius: 5px;
+    position: relative;
+    top: 20;
+    transition: all 1s;
+}
+.home .progress .contain .divv2 .pro1 .pro21
+{
+    width: 0%;
+    height: 3px;
+    background-color: #c9d4e7;
+    border-radius: 5px;
+    position: relative;
+    top: 32;
+    transition: all 1s;
+}
+.home .progress .contain .divv2 .pro1:hover .pro21
+{
+    width: 100%;
+}
+.home .progress .contain .divv2 .pro1:hover .pro22
+{
+    width: 30%;
+}
+.home .progress .contain .divv2 .pro1 .pro22 p
+{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    transition: all 1s
+}
+.home .progress .contain .divv2 .pro1 .pro22
+{
+    width: 0%;
+    height: 20px;
+    background-color: #5569dc;
+    border-radius: 5px;
+    position: relative;
+    top: 20;
+    transition: all 1s;
+
+}
+.home .progress .contain .divv2 .pro1 .pro31
+{
+    width: 0%;
+    height: 3px;
+    background-color: #c9d4e7;
+    border-radius: 5px;
+    position: relative;
+    top: 32;
+    transition: all 1s;
+}
+.home .progress .contain .divv2 .pro1:hover .pro31
+{
+    width: 100%;
+}
+.home .progress .contain .divv2 .pro1:hover .pro32
+{
+    width: 98%;
+}
+.home .progress .contain .divv2 .pro1 .pro32 p
+{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    transition: all 1s
+}
+.home .progress .contain .divv2 .pro1 .pro32
+{
+    width: 0%;
+    height: 20px;
+    background-color: #5569dc;
+    border-radius: 5px;
+    position: relative;
+    top: 20;
+    transition: all 1s;
+}
+.home .progress .contain .divv2 .pro1 .pro41
+{
+    width: 0%;
+    height: 3px;
+    background-color: #c9d4e7;
+    border-radius: 5px;
+    position: relative;
+    top: 32;
+    transition: all 1s;
+}
+.home .progress .contain .divv2 .pro1:hover .pro41
+{
+    width: 100%;
+}
+.home .progress .contain .divv2 .pro1:hover .pro42
+{
+    width: 40%;
+}
+.home .progress .contain .divv2 .pro1 .pro42 p
+{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    transition: all 1s
+}
+.home .progress .contain .divv2 .pro1 .pro42
+{
+    width: 0%;
+    height: 20px;
+    background-color: #5569dc;
+    border-radius: 5px;
+    position: relative;
+    top: 20;
+    transition: all 1s;
+}
+.home .progress .contain .divv2 .pro1 .pro51
+{
+    width: 0%;
+    height: 3px;
+    background-color: #c9d4e7;
+    border-radius: 5px;
+    position: relative;
+    top: 32;
+    transition: all 1s;
+}
+.home .progress .contain .divv2 .pro1:hover .pro51
+{
+    width: 100%;
+}
+.home .progress .contain .divv2 .pro1:hover .pro52
+{
+    width: 50%;
+}.home .progress .contain .divv2 .pro1 .pro52 p
+{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    transition: all 1s
+}
+.home .progress .contain .divv2 .pro1 .pro52
+{
+    width: 0%;
+    height: 20px;
+    background-color: #5569dc;
+    border-radius: 5px;
+    position: relative;
+    top: 20;
+    transition: all 1s;
+}
+.home .progress .contain .divv2 .pro1 .pro61
+{
+    width: 0%;
+    height: 3px;
+    background-color: #c9d4e7;
+    border-radius: 5px;
+    position: relative;
+    top: 32;
+    transition: all 1s;
+}
+.home .progress .contain .divv2 .pro1:hover .pro61
+{
+    width: 100%;
+}
+.home .progress .contain .divv2 .pro1:hover .pro62
+{
+    width: 60%;
+}
+.home .progress .contain .divv2 .pro1 .pro62 p
+{
+    color: white;
+    font-size: 15px;
+    text-align: center;
+    transition: all 1s
+}
+.home .progress .contain .divv2 .pro1 .pro62
+{
+    width: 0%;
+    height: 20px;
+    background-color: #5569dc;
+    border-radius: 5px;
+    position: relative;
+    top: 20;
+    transition: all 1s;
+}
+.home .work
+{
+    width: 100%;
+    height: 500px;
+    background-color: #edf0fc;
+    position: relative;
+    overflow: hidden;
+}
+.home .work .last p
+{
+    color: #5569dc;
+    text-align: center;
+    position: relative;
+    top: 250;
+    left: 40;
+    padding-bottom: 10px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 40px;
+}
+.home .work .last
+{
+    width: 40%;
+    height: 100%;
+}
+.home .work .sitee
+{
+    width: 60%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.home .work .sitee .imag
+{
+    width: 631.875px;
+    height: 300px;
+    position: relative;
+    top: 120;
+    left: 50;
+    
+}
+.home .work .sitee .imag img:hover
+{
+    transform: scale(.9,.9);
+}
+.home .work .sitee .imag img
+{
+    width: 100%;
+    height: 100%;
+    transition: all 1s;
+}
+.home .bigone
+{
+    background-image: url(images/banner-11.jpg);
+    background-attachment: fixed;
+    width: 100%;
+    height: 700px;
+}
+.home .bigone .background
+{
+    background-color: rgba(237, 240, 252,0.1) ;
+    width: 70%;
+    height: 70%;
+    margin: auto;
+    position: relative;
+    top: 100;
+}
+.home .bigone .blur
+{
+    background-color: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+}
+.home .bigone .background .cont
+{
+    width: 30%;
+    height: 30%;
+    position: absolute;
+    top: 100;
+    left: 50;
+    text-align: center;
+}
+.home .bigone .background .cont h2
+{
+    color: #f9fafa;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 28px;
+    letter-spacing: 1.5px;
+    padding-bottom: 40px;
+}
+
+
+
+.home .bigone .background .cont a
+{
+    color: #f9fafa;
+    text-decoration: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+}
+.home .bigone .background .cont p
+{
+    color: #f9fafa;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    padding-top: 10px;
+}
+.home .bigone .background .leftone
+{
+    width: 40%;
+    height: 65%;
+    position: absolute;
+    top: 100;
+    right: 50;
+    overflow: hidden;
+}
+#ff11
+{
+    position: relative;
+    width: 45%;
+    height: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+
+}
+#ff12
+{
+    position: relative;
+    width: 45%;
+    height: 40px;
+    left: 33px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+#ff22
+{
+    position: relative;
+    width: 100%;
+    height: 40px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding: 5px;
+}
+
+#ff33
+{
+    padding-bottom: 100px;
+    padding-right: 250px;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    padding-left: 5px;
+    
+}
+
+#f1111
+{
+    width: 100%;
+    overflow: hidden;
+}
+#f2222
+{
+    padding-top: 15px;
+    width: 100%;
+    overflow: hidden;
+}
+#f3333
+{
+    padding-top: 15px;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 15px;
+}
+.home .bigone .background .leftone .bttn
+{
+    width: 100%;
+    height: 40px;
+}
+.home .bigone .background .leftone .bttn button
+{
+    width: 100%;
+    height: 100%;
+    background-color:#5569dc;
+    color: white;
+    border: none;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 20px;
+    transition: all 0.5s;
+}
+.home .bigone .background .leftone .bttn button:hover
+{
+    background-color: rgba(237, 240, 252,0.5) ;
+    color: rgba(0,0,0,0.7);
+    cursor: hand;
+    transform: scale(.8,.8);
+        
+}
+.home .footer
+{
+    width: 100%;
+    height: 80px;
+    background-color: rgba(0,0,0,0.9);
+    position: relative;
+    
+}
+.home .footer .social2
+{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    right: 0;
+    top: 20%;
+    overflow: hidden;
+
+}
+.home .footer .social2 img
+{
+    padding-right: 20px;
+    padding-top: 5px;
+    text-align: center;
+    margin: 8px;
+    transition: all 1s;
+}
+.home .footer .social2 img:hover
+{
+    transform: scale(.8,.8);
+}
+.home .footer .copyright
+{
+    width: 35%;
+    height: 50px;
+    position: absolute;
+    top: 20%;
+    left: 10px;
+    overflow: hidden;
+    text-align: center;
+}
+.home .footer .copyright p
+{
+    color: #f9fafa;
+    font-family: 'Open Sans Condensed', sans-serif;
+    font-size: 16px;
+    letter-spacing: 1.5px;
+    padding-top: 10px;
+}
+#smooth1:hover
+{
+    transform: translateY(-10px);
+}
+
+
+
+
+
+
+
